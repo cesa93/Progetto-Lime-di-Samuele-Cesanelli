@@ -1,0 +1,91 @@
+/* Sfondo della pagina */
+body
+{
+background-color: black;
+background-image: url(immagini/background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/* Riquadro e testo */
+.container {
+margin: 2% 18.5% 10% 18.5%;
+background: rgba(0,0,0,0.5);
+padding: 5% 5% 5% 5%;
+border-radius: 10px 10px 10px 10px;
+}
+h1,h3,p {
+font-family: 'Poppins', sans-serif;
+font-weight: lighter;
+}
+
+/* titolo */
+.Logo {
+text-align: center;
+}
+img[src*="logo"] {
+width: 200px;
+height: auto;
+}
+h1 {
+font-size: 25px;
+line-height: 0%;
+color: lime;
+text-shadow: 0px 1px 1px black ;
+font-weight: lighter;
+}
+
+/* menu di navigazione */
+nav {
+text-align: center;
+background-color: lime;
+padding: 1.5% 2% 1.5% 2%;
+margin-top: 3%;
+}
+button {
+font-size: 10px;
+font-weight: bold;
+}
+
+/* menu dei monopattini */
+menu {
+padding-left: 0;
+margin-top: 0;
+}
+section {
+color: white;
+}
+input[type="checkbox"] {
+display: inline-block;
+}
+h3 {
+display:inline-block;
+margin-bottom: 0;
+}
+p {
+font-size: 12px;
+margin: 0;
+}
+
+/* barra caricamento dei monopattini */
+span {
+color: transparent;
+background-clip: content-box;
+border-radius: 5px 5px 5px 5px;
+font-size: 140%; /* dimensioni della barra */
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+#caricaGino {
+background-color:orange;
+}
+#caricaMike {
+background-color:lime;
+}
+#caricaFede {
+background-color:red;
+}
+
+/* fine */
